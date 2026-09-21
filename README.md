@@ -1,2 +1,8 @@
 # 2622500018-PWD-SI1A-2627G
-Repository latihan pertemuan-1 sampai dengan pertemuan-16 matakuliah pemograman web dasar kelompok SI1A tahun ajaran 2026/2027 semester gasal
+Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16<br>
+Matakuliah Pemograman Web Dasar <br>
+Kelompok {SI1A}<br>
+Tahun Ajaran 2026/2027
+Semester Gasal<br><br>
+![Logo ISBAL](logo isbal.png)
+
