@@ -1,0 +1,215 @@
+/* ===== PENGATURAN DASAR ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e7;
+    color: #4b3028;
+    line-height: 1.7;
+}
+
+/* ===== NAVBAR ===== */
+header {
+    background-color: #5c3a2e;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h2 {
+    font-size: 25px;
+    color: #f5dfbd;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e8bd86;
+}
+
+/* ===== BAGIAN BERANDA ===== */
+#beranda {
+    min-height: 430px;
+    padding: 80px 8%;
+    background: linear-gradient (135deg, #ead2b5, #f8f1e7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#beranda h1 {
+    font-size: 46px;
+    color: #5c3a2e;
+    margin: 10px 0 15px;
+}
+
+#beranda p {
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
+#beranda a {
+    display: inline-block;
+    background-color: #79513c;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#beranda a:hover {
+    background-color: #4b3028;
+}
+
+/* ===== BAGIAN UMUM ===== */
+section {
+    padding: 60px 8%;
+}
+
+section h2 {
+    color: #5c3a2e;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ===== KARTU KEUNGGULAN DAN MENU ===== */
+.container,
+.menu-container,
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card,
+.menu-card {
+    background-color: #fffaf3;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(75, 48, 40, 0.12);
+    transition: transform 0.3s;
+}
+
+.card:hover,
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3,
+.menu-card h3 {
+    color: #79513c;
+    margin-bottom: 10px;
+}
+
+/* ===== BAGIAN MENU ===== */
+#menu {
+    background-color: #efe0ce;
+}
+
+.harga {
+    color: #79513c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* ===== BIODATA =====*/
+#biodata {
+    background-color: #f8f1e7;
+}
+
+#biodata p {
+    margin-bottom: 10px;
+}
+
+/* ===== BUKU TAMU DAN FORM =====*/
+#buku-tamu {
+    background-color: #efe0ce;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fffaf3;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(75, 48, 40, 0.12);
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #d4bba3;
+    border-radius: 8px;
+    font-family:Arial, sans-serif;
+}
+
+button {
+    background-color: #79513c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b3028;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #4b3028;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+/* ===== TAMPILAN HP ===== */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #beranda {
+        padding: 55px 7%;
+    }
+
+    #beranda h1 {
+        font-size: 34px;
+    }
+
+    section {
+        padding: 40px 7%;
+    }
+}
+
+
+
