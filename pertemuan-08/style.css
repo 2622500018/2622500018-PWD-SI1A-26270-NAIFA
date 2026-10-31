@@ -211,5 +211,104 @@ footer {
     }
 }
 
+/* PERBAIKAN TAMPILAN SEMUA HALAMAN */
+
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    background-color: #f8f1e7 !important;
+    color: #4b3028;
+    line-height: 1.7;
+}
+
+header.navbar {
+    background-color: #5c3a2e;
+    color: white;
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header.navbar .logo {
+    color: #f5dfbd;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header.navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+header.navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header.navbar nav a:hover {
+    color: #e8bd86;
+}
+
+section#menu,
+section#biodata,
+section#buku-tamu {
+    padding: 50px 7%;
+    background-color: #f8f1e7;
+}
+
+section#menu h2,
+section#biodata h2,
+section#buku-tamu h2 {
+    text-align: center;
+    color: #5c3a2e;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background-color: #fffaf3;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(75, 48, 40, 0.12);
+}
+
+.card h3 {
+    color: #79513c;
+}
+
+.harga {
+    color: #79513c;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4b3028;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header.navbar {
+        flex-direction: column;
+    }
+
+    header.navbar nav {
+        justify-content: center;
+    }
+}
+
 
 
