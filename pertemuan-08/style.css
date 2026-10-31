@@ -310,5 +310,187 @@ footer {
     }
 }
 
+body {
+    background-color: #f8f1e7 !important;
+}
 
+header { 
+    background-color: #5c3a2e !important;
+    color: white !important;
+}
+
+/* KHUSUS HALAMAN MENU */
+body:has(.menu-page) {
+    background-color: #f8f1e7 !important;
+}
+
+.menu-page {
+    background-color: #f8f1e7 !important;
+    color: #4b3028;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* PERBAIKAN WARNA HALAMAN MENU */
+body.menu-page {
+    background-color: #f8f1e7 !important;
+    color: #4b3028 !important;
+}
+
+body.menu-page h2,
+body.menu-page h3,
+body.menu-page p {
+    color: #4b3028 !important;
+}
+
+body.menu-page #menu {
+    background-color: #f8f1e7 !important;
+    color: #4b3028 !important;
+}
+
+body.menu-page {
+    background: #f8f1e7 !important;
+    color: #4b3028 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+body.menu-page .navbar {
+    background: #5c3a2e !important;
+    padding: 20px !important;
+}
+
+body.menu-page .navbar a {
+    color: white !important;
+}
+
+body.menu-page {
+    background-color: #f8f1e7 !important;
+    color: #4b3028 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+body.menu-page header.navbar {
+    background-color: #5c3a2e !important;
+    color: white !important;
+    padding: 20px !important;
+}
+
+body.menu-page header.navbar a {
+    color: white !important;
+}
+
+body.menu-page {
+    background: #f8f1e7 !important;
+    color: #4b3028 !important;
+    min-height: 100vh;
+}
+
+/* MEMPERBAIKI TAMPILAN HALAMAN MENU */
+body.menu-page {
+    background: #f8f1e7 !important;
+    color: #4b3028;
+    font-family: Arial, sans-serif;
+}
+
+body.menu-page section#menu {
+    padding: 40px 6%;
+    min-height: 100vh;
+}
+
+body.menu-page section#menu h2 {
+    text-align: center;
+    color: #5c3a2e;
+    margin-bottom: 20px;
+}
+
+body.menu-page section#menu h3 {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0 0;
+    border-radius: 12px 12px 0 0;
+    color: #5c3a2e;
+}
+
+body.menu-page section#menu p {
+    background: #ffffff;
+    padding: 10px 20px;
+    margin: 0;
+    color: #4b3028;
+}
+
+header.navbar a,
+header.navbar a:visited {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+header.navbar a:hover {
+    color: #f8f1e7 !important;
+}
+
+body.menu-page {
+    background-color: #f8f1e7 !important;
+    color: #4b3028 !important;
+    font-family: Arial, sans-serif;
+}
+
+body.menu-page header.navbar {
+    background-color: #5c3a2e !important;
+}
+
+body.menu-page #menu {
+    padding: 40px 6%;
+}
+
+body.menu-page #menu h2 {
+    text-align: center;
+    color: #5c3a2e;
+    margin-bottom: 30px;
+}
+
+body.menu-page .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+body.menu-page .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+body.menu-page .card h3 {
+    color: #5c3a2e;
+    margin-top: 0;
+}
+
+body.menu-page .card p {
+    color: #4b3028;
+}
+
+body.menu-page .card .harga {
+    font-weight: bold;
+    color: #8b4513;
+}
+
+/* FOOTER HALAMAN MENU */
+body.menu-page footer {
+    display: block;
+    width: 100%;
+    background-color: #5c3a2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+body.menu-page footer p {
+    background: transparent;
+    color: white !important;
+    padding: 0;
+    margin: 0;
+}
 

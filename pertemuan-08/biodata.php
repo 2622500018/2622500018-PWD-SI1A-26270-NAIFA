@@ -41,8 +41,8 @@ Kopi Latte Naifa</a>
     </section>
 
     <!-- FOOTER -->
-     <footer>
-        <p>&copy; 2026 Kopi Latte Naifa</p>
+    <footer>
+        <p>&copy; 2026 Kopi Latte Naifa </p>
     </footer>
 
 </body>

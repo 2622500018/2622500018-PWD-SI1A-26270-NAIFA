@@ -7,9 +7,9 @@ content="width=device-width,
 initial-scale=1.0">
     <title> Menu Dari - Kopi Latte Naifa</title>
 
-    <link rel="styleshett" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="menu-page">
 
     <!-- NAVIGASI -->
      <header class="navbar">
@@ -25,7 +25,7 @@ Kopi Latte Naifa</a>
     </header>   
 
     <!-- DAFTAR MENU KOPI -->
-     <section id="menu">
+     <section id="menu" class="menu-page">
         <h2>Menu Kopi Latte Naifa</h2>
         <p style="text-align:center;
 margin-bottom:30px;">
@@ -54,23 +54,23 @@ margin-bottom:30px;">
 
         <div class="card">
             <h3>Hazelnut Latte</h3>
-            <p>espresso atau kopi pekat, susu segar/full cream, dan sirup hazelnut.
+            <p>espresso atau kopi pekat, susu segar/full cream, dan sirup hazelnut.</p>
             <p class="harga">Rp23.000</p>
         </div>
 
         <div class="card">
             <h3>Iced Latte</h3>
-            <p>Kopi latte klasik yang ditambahkan dengan es batu, yang membuat rasanya lebih menyegarkan.
+            <p>Kopi latte klasik yang ditambahkan dengan es batu, yang membuat rasanya lebih menyegarkan.</p>
             <p class="harga">Rp18.000</p>
         </div>
 
     </div>
 </section>
 
-<!-- FOOTER -->
- <footer>
-    <p>&copy; 2026 Kopi Latte Naifa </p>
-</footer>
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Kopi Latte Naifa </p>
+    </footer>
 
 </body>
 </html>
