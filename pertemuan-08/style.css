@@ -494,3 +494,80 @@ body.menu-page footer p {
     margin: 0;
 }
 
+/* ===== BUKU TAMU ===== */
+.buku-tamu {
+    background-color: #f8f1e7;
+    color: #4b3028;
+    padding: 40px 8%;
+    min-height: 70vh;
+}
+
+.buku-tamu h2 {
+    text-align: center;
+    color: #5c3a2e;
+    margin-bottom: 15px;
+}
+
+.buku-tamu .pengantar {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#formBukuTamu {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#formBukuTamu label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#formBukuTamu input,
+#formBukuTamu select,
+#formBukuTamu textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #c8b5a5;
+    border-radius: 7px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+#formBukuTamu button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    background-color: #5c3a2e;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#formBukuTamu button:hover {
+    background-color: #795548;
+}
+
+.pesan-pengunjung {
+    max-width: 650px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #5c3a2e;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+.pesan-pengunjung h3 {
+    color: #5c3a2e;
+    margin-bottom: 10px;
+}
