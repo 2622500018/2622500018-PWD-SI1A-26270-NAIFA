@@ -35,30 +35,50 @@ margin-bottom:30px;">
         <div class="container">
 
         <div class="card">
+            <img src="img/classic-latte.jpeg"
+            alt="Classic Latte"
+            class="foto-produk">
+
             <h3>Classic Latte</h3>
             <p>Perpaduan espresso dan susu lembut dengan rasa klasik.</p>
             <p class ="harga">Rp18.000</p>
         </div>
 
         <div class="card">
+            <img src="img/caramel-latte.jpeg"
+            alt="Caramel Latte"
+            class="foto-produk">
+
             <h3>Caramel Latte</h3>
             <p>Kopi susu dengan sentuhan manis dan aroma karamel.</p>
             <p class="harga">Rp22.000</p>
         </div>
 
         <div class="card">
+            <img src="img/popcorn-latte.jpeg"
+            alt="Popcorn Latte"
+            class="foto-produk">
+
             <h3>Popcorn Latte</h3>
             <p>Perpaduan espresso atau kopi pekat, susu segar, sirup popcorn, serta pelengkap dengan saus karamel, dan topping popcorn asli.</p>
             <p class="harga">Rp25.000</p>
         </div>
 
         <div class="card">
+            <img src="img/hazelnut-latte.jpeg"
+            alt="Hazelnut Latte"
+            class="foto-produk">
+
             <h3>Hazelnut Latte</h3>
             <p>espresso atau kopi pekat, susu segar/full cream, dan sirup hazelnut.</p>
             <p class="harga">Rp23.000</p>
         </div>
 
         <div class="card">
+            <img src="img/iced-latte.jpeg"
+            alt="Iced Latte"
+            class="foto-produk">
+
             <h3>Iced Latte</h3>
             <p>Kopi latte klasik yang ditambahkan dengan es batu, yang membuat rasanya lebih menyegarkan.</p>
             <p class="harga">Rp18.000</p>

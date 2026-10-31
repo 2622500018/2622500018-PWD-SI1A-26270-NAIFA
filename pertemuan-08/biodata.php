@@ -29,6 +29,10 @@ Kopi Latte Naifa</a>
         <h2>Biodata Diri</h2>
 
         <div class="card">
+            <img src="img/foto-diri.jpeg"
+                alt="Foto Naifa"
+                class="foto-diri">
+                
             <p><strong>Nama:</strong> Naifa Calista Andani </p>
             <p><strong>NIM:</strong> 2622500018 </p>
             <p><strong>Tempat/Tanggal Lahir:</strong> Pangkalpinang/14-06-2008 </p>

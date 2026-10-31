@@ -571,3 +571,24 @@ body.menu-page footer p {
     color: #5c3a2e;
     margin-bottom: 10px;
 }
+
+/* FOTO DIRI */
+.foto-diri {
+    display: block;
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0 auto 25px;
+    border: 4px solid #e4d2bd;
+}
+
+/* FOTO PRODUK KOPI */
+.foto-produk {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
