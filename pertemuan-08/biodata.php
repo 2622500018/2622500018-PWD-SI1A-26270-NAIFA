@@ -32,7 +32,7 @@ Kopi Latte Naifa</a>
             <img src="img/foto-diri.jpeg"
                 alt="Foto Naifa"
                 class="foto-diri">
-                
+
             <p><strong>Nama:</strong> Naifa Calista Andani </p>
             <p><strong>NIM:</strong> 2622500018 </p>
             <p><strong>Tempat/Tanggal Lahir:</strong> Pangkalpinang/14-06-2008 </p>
@@ -46,7 +46,7 @@ Kopi Latte Naifa</a>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Kopi Latte Naifa </p>
+        <p>&copy; 2622500018_NAIFA CALISTA ANDANI_SI1A_ UTS Pemrograman Web Dasar. </p>
     </footer>
 
 </body>
