@@ -57,6 +57,8 @@
             <button type="submit">Kirim Pesan</button>
         </form>
 
+        <p id="ucapanTerimaKasih"></p>
+
         <h2>Pesan dari Pengunjung</h2>
         <div id="daftarPesan"></div>
     </section>
@@ -66,6 +68,6 @@
         <p>&copy; 2622500018_NAIFA CALISTA ANDANI_SI1A_ UTS Pemrograman Web Dasar.</p>
     </footer>
 
-    <script src="buku-tamu.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

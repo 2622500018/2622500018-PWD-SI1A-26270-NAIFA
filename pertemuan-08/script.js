@@ -61,7 +61,8 @@ form.addEventListener("submit", function(event) {
     form.reset();
     tampilkanPesan();
 
-    alert("Terima kasih! Pesan kamu berhasil disimpan.");
+    document.getElementById("ucapanTerimaKasih").textContent = 
+    "Terima kasih sudah memesan di kopi latte Naifa! Pesanan kamu berhasil dikirim.";
 });
 
 // Menampilkan pesan yang sudah tersimpan
