@@ -65,7 +65,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2622500018_NAIFA CALISTA ANDANI_SI1A_ UTS Pemrograman Web Dasar.</p>
+        <p>&copy; 2622500018_NAIFA CALISTA ANDANI_SI1A_ UTS Pemrograman Web Dasar </p>
     </footer>
 
     <script src="script.js"></script>
